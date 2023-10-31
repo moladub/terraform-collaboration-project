@@ -15,9 +15,8 @@ In your project directory, create a new file named vpc.tf
 # Step 3: Create a Load Balancer
 In this step, we'll set up a Load Balancer (ALB) to distribute traffic to our EC2 instances. Follow these instructions:
 
-In your project directory, open the Terraform configuration file you've been working on.
 
-* Add the following Load Balancer to your existing .tf file. 
+* Create a new  loadbalancer.tf file. 
 * You have provided the Load Balancer configuration. Now, you'll need to create the other necessary components in the same file:
 * Create Target Group Configuration, Target Group Attachment Configuration and Listener Configuration
 
